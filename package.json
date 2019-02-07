@@ -1,0 +1,22 @@
+{
+  "name": "datevote",
+  "version": "1.0.0",
+  "description": "a data votation application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/app.js"
+  },
+  "keywords": [
+    "vote"
+  ],
+  "author": "xwy27",
+  "license": "ISC",
+  "dependencies": {
+    "nunjucks": ">=2.4.3",
+    "koa": "^2.2.0",
+    "koa-body": "^4.0.7",
+    "koa-router": "^7.2.0",
+    "koa2-static-middleware": "^1.0.3"
+  }
+}

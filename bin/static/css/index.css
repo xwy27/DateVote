@@ -1,0 +1,52 @@
+/* Title bar */
+#title {
+  margin-bottom: 20px !important;
+  padding-bottom: 20px;
+}
+
+#title .container {
+  padding-top: 5px;
+}
+
+#title .container .logo {
+  max-width: 400px;
+}
+
+#title .container p {
+  font-size: 1.25em;
+}
+
+.icons .icon {
+  font-size: 1.5em;
+}
+
+.icons .icon:hover {
+  cursor: pointer;
+  transform: scale(1.2, 1.2);
+}
+
+/* Main Container */
+.grid.main {
+  height: 100%;
+  margin: 0 auto !important;
+}
+
+.grid.main .column {
+  max-width: 500px;
+  border-radius: 2%;
+  background: rgba(255, 255, 255, 1);
+  padding: 50px !important;
+}
+
+#name:-webkit-autofill, 
+#date:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+  border: 1px solid #CCC !important;
+}
+.grid.main .column label {
+  text-align: left;
+}
+
+.button {
+  margin-top: 50px !important;
+}
