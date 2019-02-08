@@ -52,7 +52,7 @@
           </div>
         </div>
         <div class="required field">
-          <label>Date: {{ month }}</label>
+          <label>Date: <span>{{ month }}</span></label>
           <div class="ui multiple selection dropdown">
             <input name="date" type="hidden">
             <i class="dropdown icon"></i>
@@ -64,7 +64,10 @@
             </div>
           </div>
         </div>
-        <div class="ui fluid large primary button">Submit</div>
+        <div class="ui two bottom attached buttons">
+          <div class="ui primary button submit">Submit</div>
+          <div class="ui green button download">Download</div>
+        </div>
         <div class="ui success message">
           <div class="header">Completed</div>
           <p>Completed</p>

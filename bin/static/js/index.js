@@ -12,7 +12,7 @@ function formMsg(className, header, msg) {
 
 $('.dropdown').dropdown();
 
-$('.button').on('click', () => {
+$('.submit').on('click', () => {
   let name = $('input[name="name"]').val();
   let date = $('input[name="date"]').val();
   if (name.length < 1 || date.length < 1) {
@@ -31,7 +31,11 @@ $('.button').on('click', () => {
       .catch((err) => {
         formMsg('error', 'Error',
           'Something wrong with the remote server');
-        console.error(err);
-      });
-  }
+          console.error(err);
+        });
+      }
+});
+
+$('.download').on('click', () => {
+  window.open('/download');
 });

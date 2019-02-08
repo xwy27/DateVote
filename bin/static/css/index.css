@@ -43,10 +43,14 @@
   -webkit-box-shadow: 0 0 0px 1000px white inset !important;
   border: 1px solid #CCC !important;
 }
+
 .grid.main .column label {
   text-align: left;
 }
 
+.grid.main .column label>span {
+  font-style: italic;
+}
 .button {
-  margin-top: 50px !important;
+  margin-top: 25px !important;
 }
