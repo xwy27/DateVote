@@ -12,6 +12,20 @@ function formMsg(className, header, msg) {
 
 $('.dropdown').dropdown();
 
+// Icon
+$('.icon').on('click', (ele) => {
+  switch(ele.currentTarget.className.split(' icon')[0]) {
+    case('github'):
+      window.location.href = 'https://github.com/xwy27/datevote';
+      break;
+    case('user'):
+      window.location.href = 'https://github.com/xwy27';
+      break;
+    default:
+      break; 
+  }
+});
+
 $('.submit').on('click', () => {
   let name = $('input[name="name"]').val();
   let date = $('input[name="date"]').val();
